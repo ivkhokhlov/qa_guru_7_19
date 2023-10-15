@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "qa-guru-7-19"
+version = "0.1.0"
+description = ""
+authors = ["Ivan Khokhlov <xxx.mailbox73@gmail.com>"]
+readme = "README.md"
+packages = [{include = "qa_guru_7_19"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^7.4.2"
+requests = "^2.31.0"
+jsonschema = "^4.19.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
