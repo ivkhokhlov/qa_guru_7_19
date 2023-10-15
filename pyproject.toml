@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{ include = "qa_guru_7_19" }]
 
 [tool.pytest.ini_options]
-addopts = "--alluredir=allure-report"
+addopts = "--alluredir=allure-results"
 testpaths = [
     "tests"
 ]
