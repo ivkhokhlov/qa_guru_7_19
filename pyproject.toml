@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "qa_guru_7_19"}]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
 pytest = "^7.4.2"
 requests = "^2.31.0"
 jsonschema = "^4.19.1"
